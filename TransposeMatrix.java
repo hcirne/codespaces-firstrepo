@@ -10,15 +10,19 @@ public class TransposeMatrix {
         int[][] T = new int[cols][rows];
 
         // Transpose logic
-        
+        for (int i = 0; i < T[0].length; i++) {
+            for (int j = 0; j < T.length; j++) {
+                T[j][i] = A[i][j];
+            };
+        };
 
         // Print transposed matrix
         System.out.println("Transposed Matrix:");
-       	for (int i = 0; i < T.length; i++) {
-		for (int j = 0; i < T[0].length; j++) {
-			System.out.print(T[i][j] + " ");
-		};
-		System.out.println();
-	};
+            for (int i = 0; i < T.length; i++) {
+                for (int j = 0; j < T[0].length; j++) {
+                    System.out.print(T[i][j] + " ");
+                };
+            System.out.println();
+        };
     };
 }
