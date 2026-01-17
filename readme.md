@@ -1,3 +1,3 @@
 # Hello World!
 
-This is my first repo using GitHub Codespaces!
+This repository's supposed to contain all the exercises and assignments for the t5inf1004-programmieren module.
