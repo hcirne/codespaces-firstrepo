@@ -2,13 +2,10 @@ public class InvertedDiamond {
     public static void main(String[] args) {
 
         int width = 15;
-        int heigth = 5;
-
-        // leftStars + gap + rightStars = 15
-        //gap = 15 - (2 × stars)
+        int height= 5;
 
         // top half
-        for (int stars = heigth; stars > 0; stars--){
+        for (int stars = height; stars > 0; stars--){
             
             int gap = width - (2 * stars);
 
@@ -30,7 +27,7 @@ public class InvertedDiamond {
         }
         
         //bottom half
-        for (int stars = 1; stars <= heigth; stars++) {
+        for (int stars = 1; stars <= height; stars++) {
 
             int gap = width - (2 * stars);
 
